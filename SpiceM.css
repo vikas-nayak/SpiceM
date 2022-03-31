@@ -1,0 +1,373 @@
+/* Doubts : 1) position stick not working
+         2) gap on top bootom right left of website (to fix it I used -ve margin)
+         3) on hover , baaju waale element ka position thoda change ho jata hai  */
+
+
+
+                header {
+                     margin-top: -16px;
+                     margin-left: -8px;
+                     margin-right: -8px;
+
+
+
+                }
+
+                .logo {
+                    margin-left: 190px;
+                    padding-bottom: 6px;
+
+                }
+
+                .navbar {
+                    background-color: #ffab4b;
+                    /* border-radius: 20px; */
+                    margin-bottom: 3px;
+                    width: 100%;
+                    overflow: hidden;
+                    position: fixed;
+                    top: 0px;
+                    max-height: 14%;
+
+
+
+
+
+                }
+
+
+
+                .navbar li {
+
+                    float: right;
+                    list-style: none;
+                    margin: 18px;
+                    padding: 2px 20px;
+
+
+
+                }
+
+                .navbar li a {
+                    padding: 3px 4px;
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-weight: 650px;
+                    color: black;
+                    font-family: 'bebas neue';
+
+
+                }
+
+                .navbar li a:hover {
+                    font-size: 32px;
+                    background-color: white;
+                    transition: 0.1s;
+                }
+
+
+
+                .container {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+
+
+
+                }
+
+                img {
+                    max-width: 100%
+
+                }
+
+               header .logo{
+                    margin-top: -20px;
+
+                }
+
+
+                .container {
+                    width: 100%;
+                    margin-top: 90px;
+
+                }
+
+                .image {
+                    flex-basis: 520%
+                }
+
+                .image {
+                    display: block;
+
+                }
+
+                .text {
+                    font-size: 25.6px;
+                    font-family: 'Source sans pro';
+                    margin-left: 10px;
+                    text-align: justify;
+                }
+
+                /* first container ends here */
+
+                .container2 {
+                    width: 100%;
+                    margin-top: 10px;
+                }
+
+                .image2 {
+                    /* flex-basis: 500% */
+                }
+
+                .image2 {
+                    display: block;
+                    width: 690px;
+                    float: right;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+
+
+                }
+
+                .text2 {
+                    font-size: 25.6px;
+                    font-family: 'Source Sans Pro';
+                    margin: right 50px;
+                    text-align: justify;
+                }
+
+                .footer1 {
+                    height: 15cm;
+                    width: 36.5cm;
+                    background-color: #000000;
+                    margin-top: 25px;
+                    margin-bottom: -8px;
+                    margin-left: -8px;
+                    margin-right: -8px;
+                }
+
+                hr {
+                    margin-top: 30px;
+                }
+
+                .socials img{
+                    height: 40px;
+                    width: 40px;
+                    float: left;
+                    margin-top: 20px;
+                    padding: 20px;
+                    }
+
+                .socials img:hover{
+                    height: 43px;
+                    width: 43px;
+                    transition: 0.4s;
+                    opacity: 90%;
+                }
+
+
+                    ul{
+                        list-style: none;
+                    }
+
+                footer .socials .fb{
+                    position: absolute;
+                    right: 250px;
+
+                }
+                footer .socials .ig{
+                    position: absolute;
+                    right: 150px;
+                }
+                footer .socials .twitter{
+                    position: absolute;
+                    right: 50px;
+                }
+
+                footer .socials .stores  .playstore img{
+                    display: block;
+                     height: 100px;
+                     width: 250px;
+                     float: right;
+                     padding: 10px 50px;
+                     margin-top:120px ;
+
+
+                }
+                footer .socials .stores  .appstore img{
+                    display: block;
+                     height: 100px;
+                     width: 250px;
+                     float: right;
+                     padding: 10px 0px;
+                     margin-top: 00px;
+                     padding-left: 800px;
+                     margin-right: 50px;
+
+
+                }
+
+
+
+
+                .footer1 .footertxt1 h4{
+                    color: rgb(173, 169, 164);
+                    margin-left: 40px;
+                    font-family: 'bebas neue';
+                    letter-spacing: 2px;
+
+                }
+
+                .footertxt1{
+                font-size: 25px;
+                padding: 20px 0px;
+                margin-left: 50px;
+
+                        }
+
+                        .footer1 .footertxt1  a{
+                    color: rgb(105, 103, 95);
+                    text-decoration: none;
+
+
+                }
+
+
+                .footer1 .footertxt1  a:hover{
+                    color: rgb(160, 160, 159);
+                    text-decoration: none;
+
+                }
+                .footer1 .footertxt1  li{
+                    margin-bottom: 20px;
+                    font-family: 'bebas neue';
+                    letter-spacing: 2px;
+
+                }
+
+
+
+                .footer1 .footertxt2 h4{
+                    color: rgb(173, 169, 164);
+                    margin-left: 40px;
+                    font-family: 'bebas neue';
+                    letter-spacing: 2px;
+
+                }
+
+                .footertxt2{
+                    position: absolute;
+                    font-size: 25px;
+                    padding: 0px 80px;
+                    margin-left: 350px;
+                    margin-top: -333px;
+                    float:left;
+                    padding: 0px;
+
+                }
+
+                .footer1 .footertxt2  a{
+                    color: rgb(105, 103, 95);
+                    text-decoration: none;
+
+                }
+                    .footer1 .footertxt2  a:hover{
+                        color: rgb(160, 160, 159);
+
+                    }
+
+                .footer1 .footertxt2  li{
+                    margin-bottom: 20px;
+                    font-family: 'bebas neue';
+                    letter-spacing: 2px;
+
+                }
+
+                .counter{
+                    display:flex;
+                    justify-content: center;
+                    font-family: 'bebas neue';
+
+
+
+
+                }
+
+                .c1{
+                    transition: all .2s ease-in-out;
+                    background-color: #f8ad58;
+                    margin: 40px;
+                    padding: 15px 20px;
+                    box-shadow: 2px 3px 3px  rgb(94, 94, 94);
+                }
+                .c2{
+                    transition: all .2s ease-in-out;
+                    background-color: #f8ad58;
+                    box-shadow: 2px 3px 3px rgb(94, 94, 94);
+                    margin: 40px;
+                    padding: 15px 34px;
+                }
+                .c3{
+                    transition: all .2s ease-in-out;
+                    background-color: #f8ad58;
+                    box-shadow: 2px 3px 3px rgb(94, 94, 94);
+                    margin: 40px;
+                    padding: 15px 42px;
+                }
+                .c4{
+                    transition: all .2s ease-in-out;
+                    background-color: #f8ad58;
+                    box-shadow: 2px 3px 3px rgb(94, 94, 94);
+                    margin: 40px;
+                    padding: 15px 20px;
+                }
+
+
+                .counter p{
+                    font-size: 20px;
+
+
+                }
+                .counter h7{
+                    font-size: 50px;
+                }
+
+                .c1:hover{
+                    cursor: pointer;
+                    box-shadow: 3px 4px 4px rgb(94, 94, 94);
+                    transform: scale(1.16);
+                    background-color: #ffa947;
+
+
+                }
+                .c2:hover{
+                    cursor: pointer;
+
+                    box-shadow: 3px 4px 4px rgb(94, 94, 94);
+                    background-color: #ffa947;
+                    transform: scale(1.16);
+
+                }
+                .c3:hover{
+                    cursor: pointer;
+
+                    box-shadow: 3px 4px 4px rgb(94, 94, 94);
+                    background-color: #ffa947;
+                    transform: scale(1.16);
+
+                }
+                .c4:hover{
+                    cursor: pointer;
+
+                    background-color: #ffa947;
+                    box-shadow: 3px 4px 4px rgb(94, 94, 94);
+                    transform: scale(1.16);
+
+                }
+
+
+
+
+
