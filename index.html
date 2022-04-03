@@ -2,159 +2,212 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpiceM</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Logo for chrome tab.png">>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Sans+Pro&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="SpiceM.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vikas Nayak</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <!-- HEADER STARTS HERE -->
-    <header>
-        <nav class="navbar" id="navbar">
 
-            <ul>
-                <li><a href="" target="_blank">Help </a></li>
-                <li><a href="" target="_blank">Sign-up</a></li>
-                <li><a href="login.html" target="_blank">Login</a></li>
-                <li><a href="" target="_blank">Home</a></li>
+  <!-- NAVBAR STARTS HERE -->
+
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="SpiceM full logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign-In</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Help</a></li>
             </ul>
-            <div class="logo">
-
-                <a href="SpiceM.html"> <img src="SpiceM full logo.png" alt="SpiceM Logo" height="110px"
-                        width="220px"></a>
-            </div>
-        </nav>
-    </header>
-    <!-- HEADER ENDS HERE -->
-
-
-    <!-- LEFT IMAGE AND RIGHT PARA STARTS -->
-    <div class="container">
-        <div class="image">
-            <img src="Left food.jpg">
-        </div>
-        <div class="text">
-            <h9>SpiceM is India's largest online food ordering and delivery platform, founded in 2014. is based
-                in Bangalore, India, and as of March 2019, was operating in 100 Indian cities. In early 2019, SpiceM
-                expanded into general product deliveries under the name SpiceM Stores.
-                SpiceM is India's largest online food ordering and delivery platform, founded in 2014. is based
-                in Bangalore, India, and as of March 2019, was operating in 100 Indian cities. In early 2019, SpiceM
-                expanded into general product deliveries under the name SpiceM Stores.
-
-                In September 2019, SpiceM launched instant pickup and drop service SpiceM Go. The service is used for a
-                diverse array of items, including laundry and document or parcel deliveries to business clients and
-                retail customers.
-
-                SpiceM is operated by Nayak Technologies Private Limited.
-            </h9>
-        </div>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-    <!-- LEFT IMAGE AND RIGHT PARA ENDS -->
-    <div class="container2">
-        <div class="image2">
-            <img src="Right food.jpg">
-        </div>
-        <div class="text2">
-            <h9> On 4 June 2015, an Indian security researcher hacked the SpiceM website and gained access to
-                information about 62.5 million users. Using the vulnerability, he was able to access the personal data
-                of users such as telephone numbers, email addresses, and Instagram private photos using their Instagram
-                access token. On 15 October 2015,
-                SpiceM changed business strategies from a Full-Stack market to an Enterprise market. This led SpiceM to
-                reduce its workforce by 10%, or around 300 people.
+  </nav>
 
-                On 18 May 2017, a security blog called Hack read claimed over 17 million accounts had been breached.
-                "The database includes emails and password hashes of SpiceM users. SpiceM confirmed that names, email
-                addresses, and encrypted passwords were taken from its
-                database. The company reassured affected customers that no payment information or credit card details
-                were stolen
-            </h9>
-        </div>
+  <!-- NAVBAR ENDS HERE -->
+
+  <!-- CAROUSEL STARTS HERE -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-indicators">
+
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
-    <hr>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="food1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
 
-    <!-- COUNTERS STARTS HERE -->
-    <div class="counter">
-        <div class="c1">
-            <h7> 90000+</h7>
-            <p>Happy Customers</p>
+          <p>EAT AWAY AT HUNGER.</p>
+          <a class="btn btn-primary" href="#" role="button">Order NOW!!</a>
         </div>
-        <div class="c2">
-            <h7> 5+</h7>
-            <p>Happy Years</p>
-        </div>
-        <div class="c3">
-            <h7> 25+</h7>
-            <p>Branches</p>
-        </div>
-        <div class="c4">
-            <h7> 300+</h7>
-            <p>Variety of Meals</p>
-        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="food2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
 
+          <p>YOU CAN HELP BEAT HUNGER!</p>
+          <a class="btn btn-primary" href="#" role="button">Order NOW!!</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="food3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+
+          <p>EAT GOOD, DO GOOD. ORDER NOW!</p>
+          <a class="btn btn-primary" href="#" role="button">ORDER NOW!!</a>
+        </div>
+      </div>
     </div>
-    <!-- COUNTERS ENDS HERE -->
-    <hr>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
+  <!-- CAROUSEL ENDS HERE -->
 
-    <!-- FOOTER STARTS HERE -->
-    <footer>
-        <div class="footer1">
-            <div class="socials">
-                <ul>
-                    <div class="fb">
-                        <li><a href="http://www.facebook.com" target="_blank"><img src="Facebook.png"
-                                    alt="Facebook"></a></li>
-                    </div>
-                    <div class="ig">
-                        <li><a href="http://www.instagram.com" target="_blank"><img src="Instagram.png"
-                                    alt="Instagram"></a></li>
-                    </div>
-                    <div class="twitter">
-                        <li><a href="http://www.twitter.com" target="_blank"><img src="Twitter.png" alt="Twitter"></a>
-                        </li>
-                    </div>
-                </ul>
-
-                <div class="stores">
-                    <div class="playstore"> <a href="https://play.google.com/store" target="_blank"> <img
-                                src="Playstore.png" alt="PlayStore"></div></a>
-                    <div class="appstore"> <a href="https://www.apple.com/in/app-store/" target="_blank"> <img
-                                src="Appstore.png" alt="AppStore"></div> </a>
-                </div>
-            </div>
-
-            <div class="footertxt1">
-                <h4>For you</h4>
-                <ul>
-                    <li> <a href="" target="_blank">Terms</a></li>
-                    <li> <a href="" target="_blank"> Conditions</a></li>
-                    <li> <a href="" target="_blank"> Privacy & Policies</a></li>
-                    <li> <a href="" target="_blank"> Agreements</a></li>
-
-                </ul>
-            </div>
-
-
-            <div class="footertxt2">
-                <h4>Contact</h4>
-                <ul>
-                    <li> <a href="" target="_blank">Help & Support</a></li>
-                    <li> <a href="" target="_blank">Partner with us</a></li>
-                    <li> <a href="" target="_blank">Donate us</a></li>
-                    <li> <a href="" target="_blank">Ride us</a></li>
-
-                </ul>
-            </div>
-
-
+  <!-- CARDS STARTS HERE -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="card1.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Order Online</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Order Now!</a>
+          </div>
         </div>
-    </footer>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="card2.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dining Out</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="card3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pro and Pro Plus</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Subscribe!</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="card" style="width: 18rem;">
+          <img src="card3.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nightlife and Clubs</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- CARDS END HERE -->
+
+  <!-- FOOTER STARTS HERE -->
+<div class="footer">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-2">
+        <h5>Essentials</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>Social Media</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Facebook</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 offset-1">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>© 2021 Company, Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+</div>
+
+<!-- FOOTER ENDS HERE -->
 </body>
 
 </html>

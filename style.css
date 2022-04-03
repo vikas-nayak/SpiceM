@@ -1,0 +1,106 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar{
+    background-color: #ffab4b;
+    font-size: 1.5rem;
+
+}
+.navbar .btn{
+border: 1px solid black;
+color: black;
+border-radius: 0;
+}
+
+.navbar form input{
+    border-radius: 0;
+}
+.navbar img{
+    height: 7rem;
+}
+
+.navbar ul li{
+ padding: 1rem;
+}
+
+.navbar ul li a:hover{
+    background-color: #fff;
+}
+
+.navbar form button:hover{
+    background-color: white;
+    color: black;
+}
+
+.carousel{
+    margin-top: 1rem;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2.5rem;
+
+}
+
+.carousel .btn{
+border-radius: 0;
+margin: 1rem;
+}
+
+.carousel a{
+  background-color: #fff;
+  border: none;
+  color: black;
+  font-size: 2rem;
+}
+
+.carousel a:hover{
+    background-color: rgb(229, 221, 221);
+    color: black;
+  }
+
+.card{
+ margin: 2.5rem;
+text-align-last: center;
+transition: transform .2s;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card-img-top{
+    border-radius: 20px;
+}
+
+.card .btn{
+    background-color: #ffab4b;
+    color:white;
+    border-radius: 0;
+    border: none;
+}
+
+.card .btn:hover{
+    background-color: #dc9748;
+    color:white
+}
+
+.footer{
+    padding: 2rem;
+    background-color: black;
+    color: white;
+}
+
+.footer .btn{
+    background-color: #ffab4b;
+    border: none;
+    border-radius: 0;
+}
+
+.footer .btn:hover{
+    background-color: #dc9646;
+}
+
+.footer form input{
+    border-radius: 0;
+}
+
